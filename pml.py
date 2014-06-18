@@ -4,7 +4,7 @@
 """
 PML Parser
 
-Jared Patrick <jared.patrick@gmail.com> -- 06.18.2014
+Jared Patrick <jared.patrick@gmail.com> -- 2014.06.18
 """
 
 # stdlib
