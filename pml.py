@@ -117,7 +117,7 @@ class PMLParser(object):
 
 
     def execute(self):
-        """execute the code block"""
+        """Execute the code block"""
 
         env = {'USER': self.user}
         source = code.compile_command(self.code, '<stdio>', 'exec')
