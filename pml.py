@@ -18,11 +18,11 @@ class PMLParser(object):
     def __init__(self, pml_file='index.pml'):
         self.in_pml = False
         self.stream = ''
+        self.code = ''
         self._exec = []
         self.indent = False
         self.indent_buffer = 0
         self.pml_file = pml_file
-        self.code = ''
 
 
     def main(self):
