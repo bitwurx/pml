@@ -126,8 +126,7 @@ class PMLParser(object):
             self.stream += env['pml'] + '\n'
         except NameError:
             pass
-        # set globals for script-wide access.  pml set to '' to "flush the pml 
-        # buffer"
+        # pml set to '' to "flush the pml buffer"
         pml = ''
 
 if __name__ == '__main__':
