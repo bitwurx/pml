@@ -80,7 +80,6 @@ class PMLParser(object):
         """Exit the pml code block"""
 
         # break loop if closing pml is matched
-        # to_output.append(executing)
         self.in_pml = False
         self.parse()
         self._exec = []
