@@ -16,13 +16,13 @@ class PMLParser(object):
     """Utility to parse pml script files"""
 
     def __init__(self, pml_file='index.pml'):
+        self.pml_file = pml_file
         self.in_pml = False
         self.stream = ''
         self.code = ''
         self._exec = []
         self.indent = False
         self.indent_buffer = 0
-        self.pml_file = pml_file
 
 
     def main(self):
