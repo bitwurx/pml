@@ -1,0 +1,12 @@
+To run:
+	from the shell...
+		[chmod +x pml.py] then run [./pml.py]
+		or simply run [python pml.py]
+
+	*** ensure the index.pml file is in the same directory as the pml.py script ***
+
+Assumtions:
+	* It is assumed that the value assigned to the "pml" variable is the return value in the <pml></pml> block
+		reason: The stdout stream required me to print rather than return a value.  I also could not return inside the pml without hacking together a wrapper function for every pml. 
+
+	* Is is assumed that the <pml> and </pml> tags should be on separate lines.  I modified the code to enable single line <pml></pml> statements for a single python statement, but no other tags can be present outside the <pml> or </pml> on the same line unless they are in a string inside the pml block.
